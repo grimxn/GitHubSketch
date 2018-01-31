@@ -15,6 +15,7 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
         print("Hello world")
+        print("Remote change")
     }
 
     override var representedObject: Any? {
