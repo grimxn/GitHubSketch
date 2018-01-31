@@ -11,6 +11,8 @@
 		554B454520222988000E44BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B454420222988000E44BE /* ViewController.swift */; };
 		554B454720222988000E44BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554B454620222988000E44BE /* Assets.xcassets */; };
 		554B454A20222988000E44BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554B454820222988000E44BE /* Main.storyboard */; };
+		554B455320222D9B000E44BE /* WellDodge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B455220222D9B000E44BE /* WellDodge.swift */; };
+		554B455620222DE5000E44BE /* AKFMaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B455520222DE5000E44BE /* AKFMaths.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		554B454920222988000E44BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		554B454B20222988000E44BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554B454C20222988000E44BE /* GitHubSketch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubSketch.entitlements; sourceTree = "<group>"; };
+		554B455220222D9B000E44BE /* WellDodge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellDodge.swift; sourceTree = "<group>"; };
+		554B455520222DE5000E44BE /* AKFMaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AKFMaths.swift; path = ../../../AKFLibrary/Swift/AKFMaths.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 		554B453620222988000E44BE = {
 			isa = PBXGroup;
 			children = (
+				554B455420222DC0000E44BE /* AKF Library */,
 				554B454120222988000E44BE /* GitHubSketch */,
 				554B454020222988000E44BE /* Products */,
 			);
@@ -59,8 +64,17 @@
 				554B454820222988000E44BE /* Main.storyboard */,
 				554B454B20222988000E44BE /* Info.plist */,
 				554B454C20222988000E44BE /* GitHubSketch.entitlements */,
+				554B455220222D9B000E44BE /* WellDodge.swift */,
 			);
 			path = GitHubSketch;
+			sourceTree = "<group>";
+		};
+		554B455420222DC0000E44BE /* AKF Library */ = {
+			isa = PBXGroup;
+			children = (
+				554B455520222DE5000E44BE /* AKFMaths.swift */,
+			);
+			path = "AKF Library";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554B455620222DE5000E44BE /* AKFMaths.swift in Sources */,
 				554B454520222988000E44BE /* ViewController.swift in Sources */,
+				554B455320222D9B000E44BE /* WellDodge.swift in Sources */,
 				554B454320222988000E44BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
